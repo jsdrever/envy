@@ -17,9 +17,10 @@ header {
   }
  
   header p {
-    color:#151413
+    color:#151413;
     margin-bottom: 5px;
   }
+
   .fancy {
     color:#151413;
   }
