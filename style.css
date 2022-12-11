@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  .header {
+    position: relative; 
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    margin-top: 0px;
+    color:white;
+    width: 100%;
+    justify-content: left;
+  }
+ 
+  header p {
+    margin-bottom: 5px;
+  }
+  .lol {
+    position: fixed;
+    right: 30%;
+    top: 0;
+    border-top: solid 3px #151413;
+    max-width: 50px;
+  }  
+nav {
+    display: flex;
+    background-color: #d8a47f;
+  }
+  
+  nav a {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  .tree-beard {
+    height: 500px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    background-image: url("greedy-photo/pretty-green.jpg");
+    background-size: cover;
+    background-position: center;
+  }  
+.about-me {
+    flex: 1 0 0;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: green;
+    color: aliceblue;
+    border: 5px solid 5px black;
+    border-radius: 15px;
+}
+.about-me img {
+    border-radius: 20px;
+    align-items: center;
+}
+.work {
+    flex: 4;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+  }
+  
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  header {
+    padding: 40px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+  }
+  .stumpy {
+    height: 300px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    background-image: url("greedy-photo/stump.JPG");
+    background-size: cover;
+    background-position: center;
+}
+  footer {
+    display: flex;
+    background-color: #d8a47f;
+  }
+  
+  footer a {
+    display: flex;
+    flex-wrap: wrap;
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+  }
