@@ -26,8 +26,7 @@ header {
   .lol {
     position: fixed;
     right: 7%;
-    top: 0;
-    border-top: solid 3px #151413;
+    top: -8px;
     max-width: 50px;
   }  
 nav {
@@ -40,12 +39,12 @@ nav {
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
+    font-family: bradley hand, cursive;
   }
   .tree-beard {
     height: 500px;
     width: 100%;
     margin-top: 0px;
-    margin-bottom: 25px;
     background-image: url("envy-photo/pretty-green.jpg");
     background-size: cover;
     background-position: center;
@@ -56,8 +55,8 @@ nav {
     font-family: bradley hand, cursive;
     background: linear-gradient( rgb(19, 98, 1),rgb(171, 179, 171));
     color: aliceblue;
-    border: 5px solid 5px black;
-    border-radius: 15px;
+    border: 5px solid 5px rgb(38, 36, 36);
+    border-top: 5px solid rgb(15, 1, 1);
 }
 .about-me li {
     font-size: 20px;
@@ -65,6 +64,9 @@ nav {
 .about-me img {
     border-radius: 20px;
     align-items: center;
+}
+.oops {
+    border-top: 3px solid rgb(13, 12, 12);
 }
 .work {
     flex: 4;
@@ -98,6 +100,8 @@ nav {
     background-image: url("envy-photo/stump.JPG");
     background-size: cover;
     background-position: center;
+    border-top: 5px solid rgb(100, 97, 97);
+    border-bottom: 5px solid rgb(15, 14, 14);
 }
   footer {
     display: flex;
@@ -118,18 +122,27 @@ nav {
     .card img {
         max-height: 350px;
         max-width: 200px;
+        background-color: #b9f079;
       }
   }  
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 880px) {
     .card img {
-        max-height: 400px;
-        max-width: 225px;
-       
+        max-height: 500px;
+        max-width: 400px;
+        background-color: #90cd4a;
       }
   }
   @media screen and (max-width: 1024px) {
     .card img {
-        max-height: 750px;
-        max-width: 500px;
+        max-height: 350px;
+        max-width: 200px;
+        background-color: #31812f;
       }
+  }
+  @media screen and (min-width: 1024px) {
+    .card img {
+        max-height: 350px;
+        max-width: 200px;
+        background-color: #244423;
+    }
   }
