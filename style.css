@@ -35,7 +35,14 @@ nav {
     background-color: #90cd4a;
     font-size: larger;
   }
-  
+  .hero {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    width: 1000px;
+  }
   nav a {
     color: #13293d;
     padding: 14px 20px;
@@ -52,6 +59,7 @@ nav {
     background-position: center;
   }  
 .about-me {
+    max-height: 700px;
     display: flex;
     flex: 1 0 0;
     height: auto;
